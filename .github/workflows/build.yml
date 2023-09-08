@@ -51,25 +51,7 @@ jobs:
       matrix:
         # see https://kb.synology.com/en-uk/DSM/tutorial/What_kind_of_CPU_does_my_NAS_have
         PACKAGE_ARCH:
-        - apollolake # e.g. DS918+
-        - armada37xx
-        - armada38x
-        - avoton
-        - braswell # e.g. DS716+II
-        - broadwell
-        - broadwellnk
-        - bromolow
-        - cedarview
-        - denverton # e.g. RS2418+
-        - geminilake
-        - grantley
-        - kvmx64
-        - monaco
-        - purley
         - r1000
-        - rtd1296
-        - rtd1619b
-        - v1000
 
     runs-on: ubuntu-latest
 
